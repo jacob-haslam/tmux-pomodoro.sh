@@ -3,6 +3,7 @@ Bash script that makes a pomodoro timer intended for tmux but could be used in o
 
 
 Example usage in ~/.config/tmux/tmux.conf:
+
 set -g status-interval 1
 
 set -g status-right '#(cat /tmp/tmux-pomodoro-status 2>/dev/null || echo "")'
